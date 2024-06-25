@@ -1,19 +1,48 @@
-body {
-    /* font-family: "Noto Sans KR", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal; */
+/* 영어 폰트 */
+#font-eng {
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
 }
 
+/* 한글 폰트 */
+#font-kor {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 320;
+    font-style: normal;
+}
+
+/* 정가운데로 오도록 위치 정렬 */
 .area-1 {
+    position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    align-items: center;
+    margin-top: 10%;
+    flex-direction: column;
+    background-color: #32548d;
+}
+
+/* 텍스트 크기, 자간 적용 */
+.zone-1 {
     font-size: 130px;
-    margin-left: 34%;
+    letter-spacing: 27px;
+    margin-left: 7%;
+    color: #fff;
+}
+
+/* 텍스트 특수기호만 색깔 적용 */
+.point {
+    color: #cc5d47;
+}
+
+/* 보조문구 위치, 크기, 자간 적용 */
+.text-4 {
+    font-size: 30px;
+    margin-left: 2.1%;
+    margin-top: 5%;
+    letter-spacing: 10px;
+    color: #fff;
 }
